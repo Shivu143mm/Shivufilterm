@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
+API_ID = int(environ['25217082'])
+API_HASH = environ['f0f2b3a17bc15ea069c032bd118523b5']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
@@ -22,9 +22,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/a462716ef38edd56dce72.jpg https://graph.org/file/60e45238f767fc946c323.jpg https://graph.org/file/55cf736b2cdcd1610b4e1.jpg https://graph.org/file/055d12321de3872bd6d72.jpg https://graph.org/file/e964f3a84a97155360aac.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/25dc968f9cf317dbe0008.jpg https://te.legra.ph/file/337b3e7a426cb59aa92c7.jpg https://te.legra.ph/file/c4591478727e516360530.https://te.legra.ph/file/12e6aba42130d00e24fc5.jpg)).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
@@ -62,7 +62,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ A�
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'all_movie_group_request_group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "false")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
